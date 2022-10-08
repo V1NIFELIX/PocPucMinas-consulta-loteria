@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  consulta_loteria:
+    build: .
+    ports:
+      - "5050:5050"
